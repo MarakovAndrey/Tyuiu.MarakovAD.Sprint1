@@ -7,7 +7,7 @@ namespace Tyuiu.MarakovAD.Sprint1.Task3.V10.Lib
         {
             int wholeNumber = (int)number;
             double partNumber = number - wholeNumber;
-            return wholeNumber + "." + Math.Round(partNumber * 100, 2) + " руб. - " + "это " + wholeNumber + "руб. " + Math.Round(partNumber*100,2) + "коп.";
+            return wholeNumber + "." + Math.Round(partNumber * 10, 1) + " руб. - " + "это " + wholeNumber + "руб. " + Math.Round(partNumber*100,2) + "коп.";
         }
     }
 }
