@@ -5,7 +5,7 @@ namespace Tyuiu.MarakovAD.Sprint1.Task4.V30.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = (x + Math.Pow(y, 3)) / (Math.Exp(1) - y);
+            var res = (x + Math.Pow(y, 3)) / (Math.Exp(2) - y);
             return Math.Round(res,3);
         }
     }
