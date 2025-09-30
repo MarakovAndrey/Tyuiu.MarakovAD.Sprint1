@@ -5,8 +5,8 @@ namespace Tyuiu.MarakovAD.Sprint1.Task7.V22.Lib
     {
         public double Calculate(double x, double y)
         {
-            var res = (Math.Round(1 - Math.Pow(Math.Tan(1), 1 / Math.Tan(1)) + Math.Cos(1 - 2), 3));
-            return res;
+            var res = (Math.Pow((1 - Math.Tan(x)),1/Math.Tan(x)) + Math.Cos(x - y));
+            return Math.Round(res,3);
         }
     }
 }
